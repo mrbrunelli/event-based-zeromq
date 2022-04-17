@@ -12,7 +12,8 @@
   "dependencies": {
     "@types/node": "^17.0.24",
     "git-commit-msg-linter": "^4.1.1",
-    "typescript": "^4.6.3"
+    "typescript": "^4.6.3",
+    "zeromq": "6.0.0-beta.6"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.19.0",
