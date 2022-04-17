@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:pub": "ts-node-dev src/publisher.ts",
+    "start:sub": "ts-node-dev src/subscriber.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,6 +21,7 @@
     "@typescript-eslint/eslint-plugin": "^5.19.0",
     "@typescript-eslint/parser": "^5.19.0",
     "eslint": "^8.13.0",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "ts-node-dev": "^1.1.8"
   }
 }
